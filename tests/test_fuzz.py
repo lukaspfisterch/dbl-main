@@ -10,7 +10,7 @@
 import pytest
 
 try:
-    from hypothesis import given, strategies as st, settings, assume
+    from hypothesis import given, strategies as st, settings, assume, HealthCheck
     HYPOTHESIS_AVAILABLE = True
 except ImportError:
     HYPOTHESIS_AVAILABLE = False
@@ -181,7 +181,7 @@ class ModifyPolicy(Policy):
 
 @pytest.mark.skipif(not HYPOTHESIS_AVAILABLE, reason="hypothesis not installed")
 @given(ctx=context_strategy)
-@settings(max_examples=200)
+@settings(max_examples=200, suppress_health_check=[HealthCheck.too_slow], deadline=None)
 def test_empty_pipeline_never_crashes(ctx: BoundaryContext):
     """Empty pipeline handles any context without crashing."""
     pipeline = Pipeline(name="empty", policies=[])

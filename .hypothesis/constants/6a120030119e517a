@@ -1,0 +1,4 @@
+# file: D:\DEV\projects\dbl-core-dev\src\dbl_core\core\dbl_core.py
+# hypothesis_version: 6.148.6
+
+['0.2.0', 'allow', 'block', 'caller_id', 'channel', 'config_present', 'context', 'dbl-core', 'decisions', 'default-allow', 'details', 'effective_metadata', 'effective_psi', 'engine', 'engine_version', 'final_outcome', 'metadata', 'modified_metadata', 'modified_psi', 'modify', 'outcome', 'policy_chain', 'psi', 'reason', 'tenant_id']

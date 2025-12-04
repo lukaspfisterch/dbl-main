@@ -1,0 +1,4 @@
+# file: D:\DEV\projects\dbl-main\src\dbl_main\config\loader.py
+# hypothesis_version: 6.148.6
+
+['.json', '.yaml', '.yml', 'content-safety', 'default', 'pipelines', 'policies', 'r', 'rate-limit', 'tenants']

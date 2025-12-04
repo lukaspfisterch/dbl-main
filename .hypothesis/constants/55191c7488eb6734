@@ -1,0 +1,4 @@
+# file: D:\DEV\projects\dbl-main\src\dbl_main\policies\rate_limit.py
+# hypothesis_version: 6.148.6
+
+[100, 'allow', 'anonymous', 'block', 'caller_id', 'current_count', 'max_requests', 'policy', 'rate-limit']

@@ -1,0 +1,4 @@
+# file: D:\DEV\projects\dbl-main\src\dbl_main\core\context_builder.py
+# hypothesis_version: 6.148.6
+
+['caller_id', 'channel', 'tenant_id']
