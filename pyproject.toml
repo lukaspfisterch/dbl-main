@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dbl-main"
-version = "0.1.0"
-description = "Deterministic Boundary Layer - policies, pipelines, bindings on dbl-core"
+version = "0.3.0"
+description = "Deterministic Boundary Layer - projection layer on dbl-core"
 authors = [
   { name = "Lukas Pfister", email = "228201683+lukaspfisterch@users.noreply.github.com" }
 ]
@@ -13,8 +13,7 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.11"
 dependencies = [
-    "dbl-core==0.2.0",
-    "kl-kernel-logic==0.4.0",
+    "dbl-core>=0.3.0",
 ]
 keywords = ["dbl", "governance", "policy", "llm", "orchestration", "deterministic"]
 classifiers = [
@@ -44,8 +43,8 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/lukaspfisterch/deterministic-boundary-layer"
-Issues = "https://github.com/lukaspfisterch/deterministic-boundary-layer/issues"
+Repository = "https://github.com/lukaspfisterch/dbl-main"
+Issues = "https://github.com/lukaspfisterch/dbl-main/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
